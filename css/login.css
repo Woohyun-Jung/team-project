@@ -1,0 +1,39 @@
+/* 웹 폰트 선언 */
+
+/* 기본 선언 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  /* font-family: ;  웹폰트 */
+}
+
+input,
+textarea,
+button,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+}
+
+/* section */
+
+.loginTitle > h2 {
+  text-align: center;
+  margin: 70px auto;
+  height: 100px;
+  line-height: 100px;
+}
+
+.login-form {
+  width: 485px;
+  margin: 0 auto;
+}

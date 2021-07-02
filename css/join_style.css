@@ -1,0 +1,59 @@
+/* 웹폰트선언 */
+
+/* 기본선언 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  /* font-family: ;  웹폰트 */
+}
+
+input,
+textarea,
+button,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+}
+
+/* section */
+
+.joinForm {
+  width: 485px;
+  margin: 0 auto;
+  float: none;
+}
+
+.joinTitle > h2 {
+  text-align: center;
+  margin: 70px auto;
+  height: 100px;
+  line-height: 100px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+
+.input-group-btn {
+  position: relative;
+  font-size: 0;
+  white-space: nowrap;
+}
+
+#addrBasic {
+  margin-top: 15px;
+}
