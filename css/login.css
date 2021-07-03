@@ -26,14 +26,23 @@ select {
 
 /* section */
 
+body {
+  background-color: #2d2d2d;
+}
+
 .loginTitle > h2 {
   text-align: center;
   margin: 70px auto;
   height: 100px;
   line-height: 100px;
+  color: white;
 }
 
 .login-form {
   width: 485px;
   margin: 0 auto;
+}
+
+.form-group > label {
+  color: white;
 }

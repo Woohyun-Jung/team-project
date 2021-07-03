@@ -1,9 +1,9 @@
-/* 웹폰트선언 */
+/* 웹폰트 선언 */
 
-/* 기본선언 */
+/* 기본 선언 */
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -29,13 +29,7 @@ body {
   background-color: #2d2d2d;
 }
 
-.joinForm {
-  width: 485px;
-  margin: 0 auto;
-  float: none;
-}
-
-.joinTitle > h2 {
+.sellerTitle > h2 {
   text-align: center;
   margin: 70px auto;
   height: 100px;
@@ -43,26 +37,25 @@ body {
   color: azure;
 }
 
-.form-group {
-  margin-bottom: 15px;
+.seller-form {
+  width: 485px;
+  margin: 0 auto;
+  float: none;
 }
 
 .form-group > label {
   color: azure;
 }
 
+.plus-btn > button {
+  background-color: white;
+}
+
 .form-control {
   position: relative;
   display: table;
-  border-collapse: separate;
 }
 
 .input-group-btn {
   position: relative;
-  font-size: 0;
-  white-space: nowrap;
-}
-
-#addrBasic {
-  margin-top: 15px;
 }
