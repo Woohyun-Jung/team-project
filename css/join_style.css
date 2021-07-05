@@ -25,10 +25,6 @@ select {
 
 /* section */
 
-body {
-  background-color: #2d2d2d;
-}
-
 .joinForm {
   width: 485px;
   margin: 0 auto;
@@ -40,15 +36,10 @@ body {
   margin: 70px auto;
   height: 100px;
   line-height: 100px;
-  color: azure;
 }
 
 .form-group {
   margin-bottom: 15px;
-}
-
-.form-group > label {
-  color: azure;
 }
 
 .form-control {

@@ -25,26 +25,17 @@ select {
 
 /* section */
 
-body {
-  background-color: #2d2d2d;
-}
-
 .sellerTitle > h2 {
   text-align: center;
   margin: 70px auto;
   height: 100px;
   line-height: 100px;
-  color: azure;
 }
 
 .seller-form {
   width: 485px;
   margin: 0 auto;
   float: none;
-}
-
-.form-group > label {
-  color: azure;
 }
 
 .plus-btn > button {
