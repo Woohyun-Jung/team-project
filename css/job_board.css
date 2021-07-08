@@ -23,6 +23,43 @@ select {
   border: none;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
+/* sidebar */
+
+.side-bar {
+  position: fixed;
+  top: 400px;
+  right: 0;
+  width: 100px;
+  padding: 10px;
+}
+
+.side-list > li {
+  text-align: center;
+  width: 90px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #c2c8ca;
+  margin-bottom: 1px;
+}
+
+.side-list > li > a {
+  text-decoration: none;
+}
+
+.side-list > li > a,
+.side-list > li > a:hover {
+  color: #2d2d2d;
+}
+
+.side-list > li > a > p {
+  margin-bottom: 0px;
+}
+
 /* section */
 .board-table {
   float: none;
@@ -70,7 +107,6 @@ hr {
 
 .table-board th {
   background-color: #f5f5f5;
-  text-align: center;
   padding: 10px 0;
   border-top: 1px solid #d2d2d2;
   border-bottom: 1px solid #d2d2d2;
