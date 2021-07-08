@@ -1,0 +1,55 @@
+/* 웹 폰트 선언 */
+
+/* 기본 선언 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  /* font-family: ;  웹폰트 */
+}
+
+input,
+textarea,
+button,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+}
+
+/* section */
+.titleBox {
+  width: 250px;
+  text-align: center;
+  margin: 70px auto;
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px solid #d2d2d2;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.t-control .table_title {
+  width: 100px;
+  min-width: 100px;
+  vertical-align: middle;
+}
+
+.table > .t-control > tr > td > input {
+  width: 200px;
+}
+
+.registBtn {
+  text-align: center;
+}
