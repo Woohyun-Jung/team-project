@@ -50,3 +50,11 @@ select {
 .input-group-btn {
   position: relative;
 }
+
+#careerGroup {
+  margin-bottom: 10px;
+}
+
+#awardsGroup {
+  margin-bottom: 10px;
+}
